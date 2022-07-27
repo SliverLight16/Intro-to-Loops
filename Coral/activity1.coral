@@ -1,0 +1,11 @@
+integer val
+integer sum
+
+sum = Get next input
+val = 0
+
+while val > -1
+   sum = sum + val 
+   val = Get next input
+   
+Put sum to output

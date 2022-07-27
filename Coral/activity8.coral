@@ -1,0 +1,16 @@
+integer numA
+integer numB
+
+numA = Get next input
+numB = Get next input 
+
+while numA != numB
+   if numB > numA
+      numB = numB - numA
+      
+   else 
+      numA = numA - numB
+      
+ Put "GCD is " to output
+ 
+ Put numA to output

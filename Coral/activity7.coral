@@ -1,0 +1,11 @@
+integer numKids
+integer userNum
+
+numKids = 2
+userNum = Get next input
+
+while userNum == 1
+   Put numKids to output
+   numKids = numKids * 2 
+   
+//Oops an infinite loop

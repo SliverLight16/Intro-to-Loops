@@ -1,0 +1,18 @@
+integer valueSum
+integer curValue
+integer numValues
+float avgVal
+
+valueSum = 0
+numValues = 0
+curValue = Get next input
+
+while curValue > 0
+   valueSum = valueSum + curValue
+   numValues = numValues + 1
+   curValue = Get next input
+   
+avgVal = (1.0*valueSum)/numValues
+
+Put "Average: " to output
+Put avgVal to output

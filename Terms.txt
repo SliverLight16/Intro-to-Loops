@@ -1,0 +1,9 @@
+Loops - a program construct that repeatedly executes
+
+Iteration - a cycle of a loop body
+
+Loop Body - the loop's statements
+
+Terminating Condition - a condition that stops the loop expression
+
+Infinite Loop - is a loop that never stops iterating. 

@@ -1,0 +1,22 @@
+integer yearsPerGen
+integer userYear
+integer curYear
+integer numAncestors
+
+curYear = 2020
+
+numAncestors = 2
+userYear = Get next input
+
+while curYear >= userYear
+   Put curYear to output 
+   Put ": " to output
+   Put numAncestors to output
+   Put " ancestors\n" to output 
+   
+   //each ancestor had two parents
+   numAncestors =  numAncestors * 2
+   
+   //Go back one gen
+   curYear = curYear - 20
+   

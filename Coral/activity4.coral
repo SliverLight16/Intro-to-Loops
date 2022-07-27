@@ -1,0 +1,19 @@
+float celsius
+float farenVal
+integer userChoice
+
+userChoice = 1
+
+while userChoice == 1
+   farenVal = (celsius * 9.0 / 5.0) + 32.0
+   Put celsius to output
+   Put "C is " to output
+   
+   Put farenVal to output
+   Put "F\n" to output
+   
+   celsius = celsius + 5
+   
+   userChoice = Get next input
+
+Put "Goodbye." to output

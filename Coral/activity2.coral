@@ -1,0 +1,16 @@
+integer val
+float sum
+integer num
+float avg
+
+sum = Get next input
+num = 0
+val = 0
+
+while val > -1
+   sum = sum + val
+   num = num + 1
+   val = Get next input
+   
+avg = sum / num
+Put avg to output

@@ -1,0 +1,10 @@
+integer userNum
+
+userNum = Get next input
+
+while userNum > 0
+   Put "-" to output
+   
+   userNum = userNum - 10
+   
+Put "\n" to output
